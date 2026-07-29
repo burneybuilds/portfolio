@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles\main.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Primary SEO -->
+        <title>Tushar Burney | Python Developer & Cybersecurity Student</title>
+
+        <meta name="title" content="Tushar Burney | Python Developer & Cybersecurity Student">
+
+        <meta name="description"
+            content="Portfolio of Tushar Burney, a Python developer and cybersecurity student building command-line tools, open-source software, and projects in Python and C.">
+
+        <meta name="keywords"
+            content="Tushar Burney, Python Developer, Cybersecurity Student, C Programming, Open Source, Portfolio, Pocket-Dex, Site Spider">
+
+        <meta name="author" content="Tushar Burney">
+
+        <meta name="robots" content="index, follow">
+
+        <!-- Theme -->
+        <meta name="theme-color" content="#111827">
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Tushar Burney | Python Developer">
+        <meta property="og:description"
+            content="Python developer building clean, readable software, CLI tools, and open-source projects.">
+        <meta property="og:image" content="imgs/portfolio.png">
+        <meta property="og:url" content="https://albertburney.dev">
+        <meta property="og:site_name" content="Tushar Burney Portfolio">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Tushar Burney | Python Developer">
+        <meta name="twitter:description"
+            content="Python developer building command-line tools, open-source software, and learning every day.">
+        <meta name="twitter:image" content="imgs/portfolio.png">
+
+        <!-- Canonical -->
+        <link rel="canonical" href="https://albertburney.dev">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="Public/Img/Profilepic.png">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="Styles/main.css">
+        <script type="application/ld+json">
+    {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Tushar Burney",
+    "url":"https://albertburney.dev",
+    "jobTitle":"Python Developer",
+    "email":"mailto:tusharburney@gmail.com",
+    "sameAs":[
+        "https://github.com/burneybuilds",
+        "https://www.linkedin.com/in/albertburney/"
+    ]
+    }
+    </script>
+    </head>
 
 <body>
 
@@ -18,12 +75,14 @@
     <nav>
 
         <div class="logo">
-            &lt;Tushar<span>.</span>dev /&gt;
+            Albert<span>.</span>
         </div>
 
         <ul class="nav-links">
 
             <li><a href="#">Home</a></li>
+
+            <li><a href="#skills">Skills</a></li>
 
             <li><a href="#projects">Projects</a></li>
 
@@ -47,16 +106,13 @@
 
             <h1>Tushar</h1>
 
-            <h3>Python Developer • Builder • Student</h3>
+            <h3>Student • Python Developer • Security Research Enthusiast</h3>
 
             <p>
-                I enjoy building Python applications,
-                contributing to open source,
-                exploring APIs,
-                and learning something new every single day.
+                I don't chase clever code, <br> I chase readable code. <br>Still learning, still making mistakes, but getting better every day.
             </p>
 
-            <a href="#projects" class="btn">
+            <a href="https://github.com/burneybuilds" class="btn" >
                 View My Projects
             </a>
 
@@ -85,65 +141,131 @@ me.learn("Python")
 me.learn("C")
 
 me.build("Pocket-Desk")
-me.build("Raahi")
+me.build("Site Spider")
 
-print("Always shipping 🚀")
+print("Always shipping")
 </pre>
 
         </div>
 
     </section>
 
+    <!-- ================= SKILLS ================= -->
+
+   <section id="skills">
+
+    <div class="container">
+
+        <h2>Skills</h2>
+
+        <div class="skill-group">
+
+            <h3>Languages</h3>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>C</span>
+            </div>
+
+        </div>
+
+        <div class="skill-group">
+
+            <h3>Libraries</h3>
+
+            <div class="tags">
+                <span>Rich</span>
+                <span>Textual</span>
+                <span>Requests</span>
+                <span>Pytest</span>
+            </div>
+
+        </div>
+
+        <div class="skill-group">
+
+            <h3>Tools</h3>
+
+            <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Linux</span>
+            </div>
+
+        </div>
+
+        <div class="skill-group">
+
+            <h3>APIs & Technologies</h3>
+
+            <div class="tags">
+                <span>REST APIs</span>
+                <span>JSON</span>
+                <span>PokeAPI</span>
+                <span>OpenStreetMap</span>
+                <span>Open-Meteo</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     <!-- ================= PROJECTS ================= -->
 
     <section id="projects">
 
-        <h2>Projects</h2>
+    <h2>Projects</h2>
 
-        <div class="project">
+    <div class="project">
 
-            <img src="https://placehold.co/600x400?text=Pocket-Desk" alt="Pocket Desk">
+        <img src="imgs/pocket_dex.png" alt="Pocket-Dex">
 
-            <div class="project-content">
+        <div class="project-content">
 
-                <h3>Pocket-Desk</h3>
+            <h3>Pocket-Dex</h3>
 
-                <p>
-                    A command-line Pokédex built using Python and PokeAPI.
-                    Search Pokémon by name or ID, explore descriptions,
-                    and learn more about your favourite Pokémon.
-                </p>
+            <p>
+                A command-line Pokédex built with Python and PokeAPI.
+                Search Pokémon by name or ID, explore descriptions,
+                and discover detailed information about your favourite Pokémon.
+            </p>
 
-                <a href="#">
-                    View Project →
-                </a>
-
-            </div>
+            <a href="https://github.com/burneybuilds/PocketDex">
+                View Project →
+            </a>
 
         </div>
 
-        <div class="project">
+    </div>
 
-            <img src="https://placehold.co/600x400?text=Raahi" alt="Raahi">
+    <div class="project">
 
-            <div class="project-content">
+        <img src="imgs/site_spider.png" alt="Site Spider">
 
-                <h3>Raahi</h3>
+        <div class="project-content">
 
-                <p>
-                    A smart route finder built using OpenStreetMap,
-                    NetworkX, and weather APIs to discover better routes.
-                </p>
+            <h3>Site Spider</h3>
 
-                <a href="#">
-                    View Project →
-                </a>
+            <p>
+                A command-line endpoint discovery tool built with Python.
+                Crawl websites, discover hidden directories and files,
+                and reduce false positives with smart filtering.
+            </p>
 
-            </div>
+            <a href="https://github.com/burneybuilds/site_spider">
+                View Project →
+            </a>
 
         </div>
 
-    </section>
+    </div>
+
+    <p class="project-note">
+        <strong>Note:</strong> The images shown above are AI-generated concept illustrations created for presentation purposes only. They do not represent the actual user interface or appearance of the projects.
+    </p>
+
+</section>
 
     <!-- ================= CONTACT ================= -->
 
@@ -158,11 +280,11 @@ print("Always shipping 🚀")
 
         <div class="links">
 
-            <a href="#">
+            <a href="https://github.com/burneybuilds">
                 GitHub
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/albertburney/">
                 LinkedIn
             </a>
 
@@ -170,7 +292,7 @@ print("Always shipping 🚀")
                 Twitter
             </a>
 
-            <a href="#">
+            <a href="mailto:tusharburney@gmail.com">
                 Email
             </a>
 
