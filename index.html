@@ -1,305 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Primary SEO -->
-        <title>Tushar Burney | Python Developer & Cybersecurity Student</title>
+    <title>Albert — Backend Developer &amp; Cybersecurity Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Albert, an aspiring backend developer and cybersecurity enthusiast based in India.">
+    <meta name="author" content="Albert">
+    <meta name="theme-color" content="#ffffff">
 
-        <meta name="title" content="Tushar Burney | Python Developer & Cybersecurity Student">
+    <link rel="icon" type="image/png" href="Public/Img/Profilepic.png">
 
-        <meta name="description"
-            content="Portfolio of Tushar Burney, a Python developer and cybersecurity student building command-line tools, open-source software, and projects in Python and C.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Kalam:wght@300;400;700&display=swap"
+        rel="stylesheet">
 
-        <meta name="keywords"
-            content="Tushar Burney, Python Developer, Cybersecurity Student, C Programming, Open Source, Portfolio, Pocket-Dex, Site Spider">
-
-        <meta name="author" content="Tushar Burney">
-
-        <meta name="robots" content="index, follow">
-
-        <!-- Theme -->
-        <meta name="theme-color" content="#111827">
-
-        <!-- Open Graph -->
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Tushar Burney | Python Developer">
-        <meta property="og:description"
-            content="Python developer building clean, readable software, CLI tools, and open-source projects.">
-        <meta property="og:image" content="imgs/portfolio.png">
-        <meta property="og:url" content="https://albertburney.dev">
-        <meta property="og:site_name" content="Tushar Burney Portfolio">
-
-        <!-- Twitter -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Tushar Burney | Python Developer">
-        <meta name="twitter:description"
-            content="Python developer building command-line tools, open-source software, and learning every day.">
-        <meta name="twitter:image" content="imgs/portfolio.png">
-
-        <!-- Canonical -->
-        <link rel="canonical" href="https://albertburney.dev">
-
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="Public/Img/Profilepic.png">
-
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="Styles/main.css">
-        <script type="application/ld+json">
-    {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Tushar Burney",
-    "url":"https://albertburney.dev",
-    "jobTitle":"Python Developer",
-    "email":"mailto:tusharburney@gmail.com",
-    "sameAs":[
-        "https://github.com/burneybuilds",
-        "https://www.linkedin.com/in/albertburney/"
-    ]
-    }
-    </script>
-    </head>
+    <link rel="stylesheet" href="Styles/main.css">
+</head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <div class="viewport-frame" aria-hidden="true"></div>
 
-    <nav>
+    <div class="page">
 
-        <div class="logo">
-            Albert<span>.</span>
-        </div>
+        <header class="nav-wrap">
+            <nav class="nav" aria-label="Main navigation">
+                <a class="brand" href="#home" aria-label="TB, back to top">TB.</a>
 
-        <ul class="nav-links">
+                <div class="nav__links">
+                    <a class="nav__link is-active" href="#home" aria-current="page">HOME</a>
+                    <a class="nav__link" href="https://github.com/burneybuilds" target="_blank" rel="noopener">PROJECT</a>
+                    <a class="nav__link" href="mailto:tusharburney@gmail.com">CONTACT ME</a>
+                </div>
+            </nav>
+        </header>
 
-            <li><a href="#">Home</a></li>
+        <main class="hero" id="home">
 
-            <li><a href="#skills">Skills</a></li>
+            <div class="hero__left">
+                <div class="badge-stage">
+                    <div class="badge">
+                        <div class="badge__clip" aria-hidden="true">
+                            <span class="badge__ring"></span>
+                            <span class="badge__strap"></span>
+                            <span class="badge__holder"><span class="badge__slot"></span></span>
+                        </div>
 
-            <li><a href="#projects">Projects</a></li>
+                        <div class="id-card">
+                            <div class="id-card__photo">
+                                <img class="id-card__avatar" src="imgs/me.png" width="1181"
+                                    height="1332" alt="Cartoon avatar of Albert Burney">
+                            </div>
 
-            <li><a href="#contact">Contact</a></li>
-
-        </ul>
-
-        <a href="#" class="resume-btn">
-            Resume ↗
-        </a>
-
-    </nav>
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero">
-
-        <div class="hero-text">
-
-            <p>Hello, I'm</p>
-
-            <h1>Tushar</h1>
-
-            <h3>Student • Python Developer • Security Research Enthusiast</h3>
-
-            <p>
-                I don't chase clever code, <br> I chase readable code. <br>Still learning, still making mistakes, but getting better every day.
-            </p>
-
-            <a href="https://github.com/burneybuilds" class="btn" >
-                View My Projects
-            </a>
-
-        </div>
-
-        <div class="code-editor">
-
-            <div class="title-bar">
-
-                <div class="circle red"></div>
-
-                <div class="circle yellow"></div>
-
-                <div class="circle green"></div>
-
-                <span class="file">portfolio.py</span>
-
+                            <div class="id-card__name">
+                                <span>Albert</span>
+                                <span>Burney</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-<pre>
-from developer import Tushar
+            <div class="hero__right">
+                <h1 class="greeting">Hii......</h1>
 
-me = Tushar()
+                <p class="intro">I'm Albert, an aspiring backend developer and cybersecurity enthusiast based in
+                    India.</p>
 
-me.learn("Python")
-me.learn("C")
+                <section class="languages" aria-labelledby="languages-title">
+                    <h2 class="languages__title" id="languages-title">LANGUAGES</h2>
 
-me.build("Pocket-Desk")
-me.build("Site Spider")
-
-print("Always shipping")
-</pre>
-
-        </div>
-
-    </section>
-
-    <!-- ================= SKILLS ================= -->
-
-   <section id="skills">
-
-    <div class="container">
-
-        <h2>Skills</h2>
-
-        <div class="skill-group">
-
-            <h3>Languages</h3>
-
-            <div class="tags">
-                <span>Python</span>
-                <span>C</span>
+                    <div class="languages__grid">
+                        <div class="language-box">
+                            <img class="language-box__icon" src="imgs/c-program-icon.svg"
+                                alt="C programming language logo">
+                        </div>
+                        <div class="language-box">
+                            <img class="language-box__icon" src="imgs/language-python-svgrepo-com.svg"
+                                alt="Python programming language logo">
+                        </div>
+                        <div class="language-box">
+                            <img class="language-box__icon" src="imgs/typescript-svgrepo-com.svg"
+                                alt="TypeScript programming language logo">
+                        </div>
+                    </div>
+                </section>
             </div>
 
-        </div>
-
-        <div class="skill-group">
-
-            <h3>Libraries</h3>
-
-            <div class="tags">
-                <span>Rich</span>
-                <span>Textual</span>
-                <span>Requests</span>
-                <span>Pytest</span>
-            </div>
-
-        </div>
-
-        <div class="skill-group">
-
-            <h3>Tools</h3>
-
-            <div class="tags">
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>Linux</span>
-            </div>
-
-        </div>
-
-        <div class="skill-group">
-
-            <h3>APIs & Technologies</h3>
-
-            <div class="tags">
-                <span>REST APIs</span>
-                <span>JSON</span>
-                <span>PokeAPI</span>
-                <span>OpenStreetMap</span>
-                <span>Open-Meteo</span>
-            </div>
-
-        </div>
+        </main>
 
     </div>
 
-</section>
-    <!-- ================= PROJECTS ================= -->
-
-    <section id="projects">
-
-    <h2>Projects</h2>
-
-    <div class="project">
-
-        <img src="imgs/pocket_dex.png" alt="Pocket-Dex">
-
-        <div class="project-content">
-
-            <h3>Pocket-Dex</h3>
-
-            <p>
-                A command-line Pokédex built with Python and PokeAPI.
-                Search Pokémon by name or ID, explore descriptions,
-                and discover detailed information about your favourite Pokémon.
-            </p>
-
-            <a href="https://github.com/burneybuilds/PocketDex">
-                View Project →
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="project">
-
-        <img src="imgs/site_spider.png" alt="Site Spider">
-
-        <div class="project-content">
-
-            <h3>Site Spider</h3>
-
-            <p>
-                A command-line endpoint discovery tool built with Python.
-                Crawl websites, discover hidden directories and files,
-                and reduce false positives with smart filtering.
-            </p>
-
-            <a href="https://github.com/burneybuilds/site_spider">
-                View Project →
-            </a>
-
-        </div>
-
-    </div>
-
-    <p class="project-note">
-        <strong>Note:</strong> The images shown above are AI-generated concept illustrations created for presentation purposes only. They do not represent the actual user interface or appearance of the projects.
-    </p>
-
-</section>
-
-    <!-- ================= CONTACT ================= -->
-
-    <section id="contact">
-
-        <h2>Let's Connect</h2>
-
-        <p>
-            Feel free to reach out for collaboration,
-            open-source contributions, or just to say hello.
-        </p>
-
-        <div class="links">
-
-            <a href="https://github.com/burneybuilds">
-                GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/in/albertburney/">
-                LinkedIn
-            </a>
-
-            <a href="#">
-                Twitter
-            </a>
-
-            <a href="mailto:tusharburney@gmail.com">
-                Email
-            </a>
-
-        </div>
-
-    </section>
-
+    <script src="Scripts/main.js"></script>
 </body>
 
 </html>
